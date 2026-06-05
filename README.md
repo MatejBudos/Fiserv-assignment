@@ -94,16 +94,6 @@ Defaults: tickets `data/eval_tickets.json`, ground truth `data/eval_ground_truth
 └── README.md
 ```
 
-## How validation works
-
-Three layers against bad model output:
-
-1. **Ollama `format="json"`** — constrained decoding, guarantees syntactically valid JSON.
-2. **`json.loads`** — parses the response.
-3. **Pydantic `Classification.model_validate(...)`** — enforces required fields and the allowed enum values for `priority` and `category`.
-
-If any layer fails for a ticket, the run continues and the ticket is recorded as `{"status": "failed", "error": "..."}` in `results.json`.
-
 ## What I'd improve with more time
 
 - Evaluate priority, summary and recommended_action.
