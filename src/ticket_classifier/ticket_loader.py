@@ -1,4 +1,4 @@
-from .models import Ticket
+from ticket_classifier.models import Ticket
 import json
 from pathlib import Path
 

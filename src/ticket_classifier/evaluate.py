@@ -3,9 +3,9 @@ import json
 import sys
 from pathlib import Path
 
-from .llm import DEFAULT_MODEL, classify
-from .models import Ticket
-from .ticket_loader import load_ground_truth, load_tickets
+from ticket_classifier.llm import DEFAULT_MODEL, classify
+from ticket_classifier.models import Ticket
+from ticket_classifier.ticket_loader import load_ground_truth, load_tickets
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_TICKETS = REPO_ROOT / "data" / "eval_tickets.json"

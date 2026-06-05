@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 import ollama
-from .models import Classification, Ticket
+from ticket_classifier.models import Classification, Ticket
 
 DEFAULT_MODEL = "llama3.2:3b"
 PROMPT_PATH = Path(__file__).resolve().parents[2] / "prompts" / "classify_ticket.md"
