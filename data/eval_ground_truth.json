@@ -1,0 +1,7 @@
+[
+  {"id": "T-001", "priority": "critical", "type": "Technical issue"},
+  {"id": "T-002", "priority": "low",      "type": "Product inquiry"},
+  {"id": "T-003", "priority": "medium",   "type": "Billing inquiry"},
+  {"id": "T-004", "priority": "medium",   "type": "Cancellation request"},
+  {"id": "T-005", "priority": "high",     "type": "Account access"}
+]

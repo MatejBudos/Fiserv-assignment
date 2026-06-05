@@ -1,0 +1,52 @@
+[
+  {
+    "ticket_id": "T-001",
+    "status": "ok",
+    "classification": {
+      "category": "technical issue",
+      "priority": "critical",
+      "summary": "Production database unreachable, all customer-facing services down",
+      "recommended_action": "Restart the Postgres cluster immediately to restore service"
+    }
+  },
+  {
+    "ticket_id": "T-002",
+    "status": "ok",
+    "classification": {
+      "category": "product inquiry",
+      "priority": "low",
+      "summary": "Smart bulb compatibility with Apple HomeKit and color temperature scheduling",
+      "recommended_action": "Check our FAQ for more information on smart bulb compatibility"
+    }
+  },
+  {
+    "ticket_id": "T-003",
+    "status": "ok",
+    "classification": {
+      "category": "billing inquiry",
+      "priority": "medium",
+      "summary": "Duplicate charge on invoice #INV-4421",
+      "recommended_action": "Please investigate and refund the duplicate charge"
+    }
+  },
+  {
+    "ticket_id": "T-004",
+    "status": "ok",
+    "classification": {
+      "category": "cancellation request",
+      "priority": "medium",
+      "summary": "Cancel auto-renewal on Pro Annual subscription",
+      "recommended_action": "Please confirm in writing that no further charges will be made"
+    }
+  },
+  {
+    "ticket_id": "T-005",
+    "status": "ok",
+    "classification": {
+      "category": "account access",
+      "priority": "critical",
+      "summary": "Locked out before client demo, urgent access needed",
+      "recommended_action": "Please reset password and verify account access"
+    }
+  }
+]

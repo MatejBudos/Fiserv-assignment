@@ -1,0 +1,32 @@
+[
+  {
+    "id": "T-001",
+    "title": "Production database unreachable",
+    "body": "Our production Postgres cluster started returning 'connection refused' about 20 minutes ago and all customer-facing services are down. We're losing transactions every minute and on-call paged the whole team.\n\nrev 14.6 -- > > Originally Posted by Tom Please advise ASAP, this is affecting revenue."
+  },
+  {
+    "id": "T-002",
+    "title": "Smart bulb compatibility",
+    "body": "Hi, before I place an order I wanted to ask whether the {product_purchased} smart bulbs are compatible with Apple HomeKit, or if I need a separate bridge for that. Also do they support color temperature scheduling?\n\nThanks. v2.1.0 — see also FAQ #4."
+  },
+  {
+    "id": "T-003",
+    "title": "Duplicate charge on invoice",
+    "body": "I was charged twice for invoice #INV-4421 on the same day (29.99 USD each) and only one of them shows up in my order history. Could you please look into this and refund the duplicate charge?\n\nBilling cycle: monthly. Thanks // PaymentRef: 9f3b-aa12."
+  },
+  {
+    "id": "T-004",
+    "title": "Cancel auto-renewal",
+    "body": "Please cancel the auto-renewal on my Pro subscription before it renews on the 30th — I no longer need the service. Confirm in writing that no further charges will be made.\n\nPlan: Pro Annual. /// thx."
+  },
+  {
+    "id": "T-005",
+    "title": "Locked out before client demo",
+    "body": "I cannot log into my account — it keeps saying 'Invalid Credentials' even with the correct password, and the password-reset email never arrives. I have a client demo in 2 hours and need access urgently.\n\nuser id 88142. 2FA was enabled. Please help."
+  },
+  {
+    "id": "",
+    "title": "",
+    "body": ""
+  }
+]

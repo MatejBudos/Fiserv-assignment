@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ticket-classifier"
+version = "0.1.0"
+description = "Mini AI ticket classifier using a local open-source LLM (Ollama)."
+requires-python = ">=3.10"
+dependencies = [
+    "ollama>=0.4.0",
+    "pydantic>=2.6",
+]
+
+[project.scripts]
+classify-tickets = "ticket_classifier.main:main"
+evaluate-tickets = "ticket_classifier.evaluate:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
